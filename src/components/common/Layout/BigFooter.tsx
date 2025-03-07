@@ -26,22 +26,6 @@ export const BigFooter = () => {
             </a>
           </div>
         </div>
-        <div>
-          <div>
-            <h4>FOLLOW US</h4>
-          </div>
-          <div>
-            <a className="big-footer-icon" href="https://www.reddit.com/r/decentraland/" target="about:blank">
-              <Reddit />
-            </a>
-            <a className="big-footer-icon" href="http://github.com/decentraland" target="about:blank">
-              <Github />
-            </a>
-            <a className="big-footer-icon" href="https://twitter.com/decentraland" target="about:blank">
-              <Twitter />
-            </a>
-          </div>
-        </div>
       </Container>
       <Container>
         <p className="copyright" title={'Versions: ' + JSON.stringify(versions, null, 2)}>
